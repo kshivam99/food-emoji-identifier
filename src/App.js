@@ -58,7 +58,7 @@ export default function App() {
     if (inputEmoji in emojiDictionary) {
       setMeaning(emojiDictionary[inputEmoji]);
     } else {
-      setMeaning("failure to recognise this emoji");
+      setMeaning("Sorry, this emoji is not in our database, Will Update soon!");
     }
   }
 
